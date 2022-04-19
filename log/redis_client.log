@@ -1,0 +1,32 @@
+2022-04-17 22:19:15,250 redisClient.py[line:149] ERROR redis connection error: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+Traceback (most recent call last):
+  File "/Users/gaoxianghu/opt/anaconda3/lib/python3.7/site-packages/redis/connection.py", line 608, in connect
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/gaoxianghu/opt/anaconda3/lib/python3.7/site-packages/redis/retry.py", line 45, in call_with_retry
+    return do()
+  File "/Users/gaoxianghu/opt/anaconda3/lib/python3.7/site-packages/redis/connection.py", line 608, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/gaoxianghu/opt/anaconda3/lib/python3.7/site-packages/redis/connection.py", line 673, in _connect
+    raise err
+  File "/Users/gaoxianghu/opt/anaconda3/lib/python3.7/site-packages/redis/connection.py", line 661, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/gaoxianghu/git/proxy_pool/db/redisClient.py", line 144, in test
+    self.getCount()
+  File "/Users/gaoxianghu/git/proxy_pool/db/redisClient.py", line 130, in getCount
+    proxies = self.getAll(https=False)
+  File "/Users/gaoxianghu/git/proxy_pool/db/redisClient.py", line 112, in getAll
+    items = self.__conn.hvals(self.name)
+  File "/Users/gaoxianghu/opt/anaconda3/lib/python3.7/site-packages/redis/commands/core.py", line 3807, in hvals
+    return self.execute_command("HVALS", name)
+  File "/Users/gaoxianghu/opt/anaconda3/lib/python3.7/site-packages/redis/client.py", line 1173, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Users/gaoxianghu/opt/anaconda3/lib/python3.7/site-packages/redis/connection.py", line 1565, in get_connection
+    connection.connect()
+  File "/Users/gaoxianghu/opt/anaconda3/lib/python3.7/site-packages/redis/connection.py", line 613, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.

@@ -1,0 +1,5 @@
+2022-04-17 22:20:09,938 check.py[line:107] INFO RawProxyCheck - thread_07: 83.218.168.103:80       fail
+2022-04-17 22:20:19,941 check.py[line:107] INFO RawProxyCheck - thread_07: 47.97.191.179:8018      fail
+2022-04-17 22:20:29,958 check.py[line:107] INFO RawProxyCheck - thread_07: 121.40.144.159:22       fail
+2022-04-17 22:20:39,961 check.py[line:107] INFO RawProxyCheck - thread_07: 81.68.243.42:80         fail
+2022-04-17 22:20:39,961 check.py[line:90] INFO RawProxyCheck - thread_07: complete

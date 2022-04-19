@@ -1,0 +1,61 @@
+2022-04-03 17:54:13,991 check.py[line:107] INFO RawProxyCheck - thread_14: 165.225.94.104:10605    fail
+2022-04-03 17:54:13,990 check.py[line:107] INFO RawProxyCheck - thread_08: 45.156.31.18:9090       fail
+2022-04-03 17:54:13,989 check.py[line:107] INFO RawProxyCheck - thread_15: 41.65.236.41:1976       fail
+2022-04-03 17:54:13,990 check.py[line:107] INFO RawProxyCheck - thread_19: 165.225.124.14:10605    fail
+2022-04-03 17:54:13,991 check.py[line:107] INFO RawProxyCheck - thread_16: 185.238.239.81:8090     fail
+2022-04-03 17:54:14,042 check.py[line:107] INFO RawProxyCheck - thread_14: 58.246.58.150:9002      fail
+2022-04-03 17:54:14,051 check.py[line:107] INFO RawProxyCheck - thread_19: 112.6.117.178:8085      fail
+2022-04-03 17:54:14,065 check.py[line:107] INFO RawProxyCheck - thread_15: 112.6.117.135:8085      fail
+2022-04-03 17:54:14,117 check.py[line:107] INFO RawProxyCheck - thread_14: 223.96.90.216:8085      fail
+2022-04-03 17:54:14,204 check.py[line:107] INFO RawProxyCheck - thread_14: 118.193.39.121:80       fail
+2022-04-03 17:54:14,269 check.py[line:107] INFO RawProxyCheck - thread_16: 58.220.95.40:10174      fail
+2022-04-03 17:54:14,573 check.py[line:107] INFO RawProxyCheck - thread_14: 36.255.192.83:80        fail
+2022-04-03 17:54:14,619 check.py[line:107] INFO RawProxyCheck - thread_14: 39.175.90.51:30001      fail
+2022-04-03 17:54:14,949 check.py[line:107] INFO RawProxyCheck - thread_08: 58.20.232.245:9091      fail
+2022-04-03 17:54:21,260 check.py[line:107] INFO RawProxyCheck - thread_15: 103.119.3.30:8888       fail
+2022-04-03 17:54:23,284 check.py[line:107] INFO RawProxyCheck - thread_15: 8.208.91.118:80         fail
+2022-04-03 17:54:24,056 check.py[line:107] INFO RawProxyCheck - thread_19: 103.180.119.38:8080     fail
+2022-04-03 17:54:24,288 check.py[line:107] INFO RawProxyCheck - thread_16: 60.21.141.190:9999      fail
+2022-04-03 17:54:24,305 check.py[line:107] INFO RawProxyCheck - thread_16: 115.218.7.191:9000      fail
+2022-04-03 17:54:24,624 check.py[line:107] INFO RawProxyCheck - thread_14: 103.66.219.219:8888     fail
+2022-04-03 17:54:24,953 check.py[line:107] INFO RawProxyCheck - thread_08: 60.182.17.50:9000       fail
+2022-04-03 17:54:24,955 check.py[line:107] INFO RawProxyCheck - thread_08: 218.75.102.198:8000     fail
+2022-04-03 17:54:24,958 check.py[line:107] INFO RawProxyCheck - thread_08: 123.118.4.195:8118      fail
+2022-04-03 17:54:24,960 check.py[line:107] INFO RawProxyCheck - thread_08: 115.218.5.27:9000       fail
+2022-04-03 17:54:24,963 check.py[line:107] INFO RawProxyCheck - thread_08: 112.80.248.73:80        fail
+2022-04-03 17:54:24,965 check.py[line:107] INFO RawProxyCheck - thread_08: 180.97.34.35:80         fail
+2022-04-03 17:54:24,967 check.py[line:107] INFO RawProxyCheck - thread_08: 202.108.22.5:80         fail
+2022-04-03 17:54:24,969 check.py[line:107] INFO RawProxyCheck - thread_08: 222.249.238.138:8080    fail
+2022-04-03 17:54:24,971 check.py[line:107] INFO RawProxyCheck - thread_08: 103.97.200.52:80        fail
+2022-04-03 17:54:24,972 check.py[line:107] INFO RawProxyCheck - thread_08: 36.66.16.193:8080       fail
+2022-04-03 17:54:24,974 check.py[line:107] INFO RawProxyCheck - thread_08: 183.88.215.252:8080     fail
+2022-04-03 17:54:24,977 check.py[line:107] INFO RawProxyCheck - thread_08: 180.149.98.206:8080     fail
+2022-04-03 17:54:24,979 check.py[line:107] INFO RawProxyCheck - thread_08: 82.137.244.151:8080     fail
+2022-04-03 17:54:24,981 check.py[line:107] INFO RawProxyCheck - thread_08: 42.2.205.141:8080       fail
+2022-04-03 17:54:24,983 check.py[line:107] INFO RawProxyCheck - thread_08: 47.113.90.161:83        fail
+2022-04-03 17:54:24,985 check.py[line:107] INFO RawProxyCheck - thread_08: 202.55.5.209:8090       fail
+2022-04-03 17:54:24,987 check.py[line:107] INFO RawProxyCheck - thread_08: 117.34.25.11:55443      fail
+2022-04-03 17:54:24,989 check.py[line:107] INFO RawProxyCheck - thread_08: 202.116.32.236:80       fail
+2022-04-03 17:54:24,991 check.py[line:107] INFO RawProxyCheck - thread_08: 117.114.149.66:55443    fail
+2022-04-03 17:54:24,993 check.py[line:107] INFO RawProxyCheck - thread_08: 118.163.120.181:58837   fail
+2022-04-03 17:54:24,996 check.py[line:107] INFO RawProxyCheck - thread_08: 121.232.148.145:9000    fail
+2022-04-03 17:54:24,997 check.py[line:107] INFO RawProxyCheck - thread_08: 117.95.100.230:8089     fail
+2022-04-03 17:54:24,999 check.py[line:107] INFO RawProxyCheck - thread_08: 115.218.5.17:9000       fail
+2022-04-03 17:54:25,001 check.py[line:107] INFO RawProxyCheck - thread_08: 118.190.244.234:3128    fail
+2022-04-03 17:54:25,003 check.py[line:107] INFO RawProxyCheck - thread_08: 221.226.75.86:55443     fail
+2022-04-03 17:54:25,005 check.py[line:107] INFO RawProxyCheck - thread_08: 221.226.94.218:110      fail
+2022-04-03 17:54:25,008 check.py[line:107] INFO RawProxyCheck - thread_08: 47.57.188.208:80        fail
+2022-04-03 17:54:25,009 check.py[line:107] INFO RawProxyCheck - thread_08: 183.247.152.98:53281    fail
+2022-04-03 17:54:25,011 check.py[line:107] INFO RawProxyCheck - thread_08: 58.240.110.171:8888     fail
+2022-04-03 17:54:25,013 check.py[line:107] INFO RawProxyCheck - thread_08: 124.205.155.153:9090    fail
+2022-04-03 17:54:25,015 check.py[line:107] INFO RawProxyCheck - thread_08: 47.92.113.71:80         fail
+2022-04-03 17:54:25,017 check.py[line:107] INFO RawProxyCheck - thread_08: 124.205.155.148:9090    fail
+2022-04-03 17:54:25,017 check.py[line:90] INFO RawProxyCheck - thread_08: complete
+2022-04-03 17:54:33,286 check.py[line:107] INFO RawProxyCheck - thread_15: 163.125.157.188:8888    fail
+2022-04-03 17:54:33,286 check.py[line:90] INFO RawProxyCheck - thread_15: complete
+2022-04-03 17:54:34,060 check.py[line:107] INFO RawProxyCheck - thread_19: 115.218.0.47:9000       fail
+2022-04-03 17:54:34,060 check.py[line:90] INFO RawProxyCheck - thread_19: complete
+2022-04-03 17:54:34,308 check.py[line:107] INFO RawProxyCheck - thread_16: 115.218.0.87:9000       fail
+2022-04-03 17:54:34,308 check.py[line:90] INFO RawProxyCheck - thread_16: complete
+2022-04-03 17:54:34,627 check.py[line:107] INFO RawProxyCheck - thread_14: 111.17.217.88:1080      fail
+2022-04-03 17:54:34,627 check.py[line:90] INFO RawProxyCheck - thread_14: complete
