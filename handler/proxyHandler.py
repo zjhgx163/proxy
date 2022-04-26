@@ -102,6 +102,22 @@ class ProxyHandler(object):
             # return self.db.updateValueByField(proxy,json.dumps(_dict, ensure_ascii=False))
         else:
             return -1
+    def unban(self, proxy):
+        """
+        ban forbidden proxy
+        :param proxy:
+        :return:
+        """
+        proxy_json = self.db.getValueByField(proxy)
+        if proxy_json is not None:
+            proxy_obj = Proxy.createFromJson(proxy_json)
+            proxy_obj.ban = False
+            # _dict = json.loads(proxy_json)
+            # _dict['ban'] = True
+            return self.db.update(proxy_obj)
+            # return self.db.updateValueByField(proxy,json.dumps(_dict, ensure_ascii=False))
+        else:
+            return -1
 
     def unuseable(self, proxy):
         """

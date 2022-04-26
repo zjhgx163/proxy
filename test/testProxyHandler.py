@@ -18,6 +18,8 @@ proxy_handler = ProxyHandler()
 
 def testProxyHandler():
     proxy_handler.ban("103.171.84.215:8080")
+    proxy_handler.unban("103.171.84.215:8080")
+
     proxy_handler.unuseable("116.62.26.183:7890")
 
 

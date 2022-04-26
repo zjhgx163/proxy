@@ -101,6 +101,12 @@ def ban():
     status = proxy_handler.ban(proxy)
     return {"code": 0, "src": status}
 
+@app.route('/unban/', methods=['GET'])
+def ban():
+    proxy = request.args.get('proxy')
+    status = proxy_handler.unban(proxy)
+    return {"code": 0, "src": status}
+
 @app.route('/unuseable/', methods=['GET'])
 def unuseable():
     proxy = request.args.get("proxy")
