@@ -46,7 +46,9 @@ api_list = [
     {"url": "/delete", "params": "proxy: 'e.g. 127.0.0.1:8080'", "desc": "delete an unable proxy"},
     {"url": "/all", "params": "type: ''https'|''", "desc": "get all proxy from proxy pool"},
     {"url": "/count", "params": "", "desc": "return proxy count"},
-    {"url": "/ban", "params": "proxy: 'e.g. 127.0.0.1:8080'", "desc": "ban an identified vpn proxy"}
+    {"url": "/ban", "params": "proxy: 'e.g. 127.0.0.1:8080'", "desc": "ban an identified vpn proxy"},
+    {"url": "/unban", "params": "proxy: 'e.g. 127.0.0.1:8080'", "desc": "unban an identified vpn proxy"}
+
     # 'refresh': 'refresh proxy pool',
 ]
 
@@ -102,7 +104,7 @@ def ban():
     return {"code": 0, "src": status}
 
 @app.route('/unban/', methods=['GET'])
-def ban():
+def unban():
     proxy = request.args.get('proxy')
     status = proxy_handler.unban(proxy)
     return {"code": 0, "src": status}
